@@ -1,0 +1,164 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.area-de-juego {
+    width: 600px;
+    height: 400px;
+    border: 5px solid green;
+    background-color: black;
+    position: relative;
+}
+
+#nave {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    margin: 5px;
+    top: 40px;
+    background-image: url("img/player.png");
+    background-size: cover;                      
+    background-repeat:  no-repeat;
+    background-position: center center;
+}
+
+.bala {
+    width: 1px;
+    height: 7px;
+    position: absolute;
+    visibility: visible;
+    background-color: white;
+    left: -10px;
+    top: 64px;
+}
+
+.balainvader {
+    width: 1px;
+    height: 7px;
+    position: absolute;
+    visibility: visible;
+    background-color: white;
+    left: -10px;
+    top: 64px;
+}
+
+.invader-zone {
+    position: relative;
+    width: 420px;
+    height: 60%;
+    top: 88px;
+    margin: 0;
+    padding: 0;
+    left: 15px;
+}
+
+.fila {
+    position: relative;
+    right: 40px;
+    width: 420px;
+    height: 50px;
+    margin: 40px;
+}
+
+.invader {
+    display: initial;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fila1 {
+    background-image: url("img/sprite1.png");
+    top: 200px;
+}
+
+.fila2 {
+    background-image: url("img/sprite2.png");
+    top: 255px;
+}
+
+.fila3 {
+    background-image: url("img/sprite3.png");
+    top: 350px;
+}
+
+.fondo-pausa,
+.fondo-iniciar {
+    z-index: 1000;
+    background-color: rgba(211, 211, 211, 0.7);
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 13px;
+    right: 0px;
+    left: 13px;
+    bottom: 0;
+}
+
+.fondo-pausa p,
+.fondo-iniciar p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    color: green;
+    text-align: center;
+    margin-top: 100px; 
+}
+
+.fondo-pausa {
+    display: none;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    width: 60%;
+    height: 0;
+    margin: 0;
+}
+
+h3 span {
+    position: relative;
+    margin: 0px 15px;
+    top: 0;
+    left: 0;
+}
+
+span.vidas {
+    color: rgba(255, 0, 0, 0.719);
+}
+
+span.puntos {
+    color: green;
+}
+
+.a1, .b1, .c1{
+    left: 20px;
+}
+
+.a2, .b2, .c2{
+    left: 100px;
+}
+
+.a3, .b3, .c3 {
+    left: 190px;
+}
+
+.a4, .b4, .c4 {
+    left: 280px;
+}
+
+.a5, .b5, .c5 {
+    left: 370px;
+}
+
+.a6, .b6, .c6{
+    left: 462px;
+}
+
+.a7, .b7, .c7{
+    left: 550px;
+}
